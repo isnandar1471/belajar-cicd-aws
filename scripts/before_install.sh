@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # install nvm dan node
+echo "CEK NVM"
 if [ ! command -v nvm &> /dev/null ]; then
   echo "NVM TIDAK DITEMUKAN"
   echo "NVM AKAN DIINSTALL"

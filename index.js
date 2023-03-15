@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send(`
   EXPRESS DEMO APP
 
-  lastupdate: 2023/04/15 09:21
+  lastupdate: 2023/04/15 10:00
   `)
 })
 

@@ -12,3 +12,15 @@ if [ ! command -v nvm &> /dev/null ]; then
   nvm install 16
   node -e "console.log('NODEJS ' + process.version + ' BERHASIL DIINSTALL')"
 fi
+
+# CEK DIREKTORI
+DIR="$HOME/express-app"
+echo "CEK DIRECTORY $DIR"
+if [ -d "$DIR" ]; then
+  echo "$DIR TELAH ADA"
+else
+  echo "$DIR BELUM ADA"
+  echo "MEMBUAT DIRECTORY"
+  mkdir ${DIR}
+  sudo chmod -R 777 "$DIR"
+fi

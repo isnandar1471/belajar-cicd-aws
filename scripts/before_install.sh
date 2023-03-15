@@ -22,5 +22,4 @@ else
   echo "$DIR BELUM ADA"
   echo "MEMBUAT DIRECTORY"
   mkdir ${DIR}
-  sudo chmod -R 777 "$DIR"
 fi
